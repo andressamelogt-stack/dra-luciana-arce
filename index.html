@@ -94,7 +94,7 @@
       <a href="#avaliacoes">Avaliações</a>
       <a href="#local">Localização</a>
     </nav>
-    <a class="btn btn-wa wa" data-msg="Olá, Dra. Luciana! Vim pelo site e quero agendar uma avaliação." data-pos="topo" href="#"><svg class="ico"><use href="#i-chat"/></svg>Agendar</a>
+    <div class="top-r"><a class="top-ig" href="https://www.instagram.com/dralucianaarce/" target="_blank" rel="noopener" aria-label="Instagram @dralucianaarce" data-track="instagram-topo"><svg class="ico"><use href="#i-cam"/></svg></a><a class="btn btn-wa wa" data-msg="Olá, Dra. Luciana! Vim pelo site e quero agendar uma avaliação." data-pos="topo" href="#"><svg class="ico"><use href="#i-chat"/></svg>Agendar</a></div>
   </div>
 </header>
 
@@ -127,8 +127,8 @@
 
   <div class="marquee" aria-hidden="true">
     <div class="track">
-      <span>Harmonização Facial</span><span>Preenchimento Labial</span><span>Bioestimulador de Colágeno</span><span>Botox Full Face</span><span>Rejuvenescimento</span><span>Tratamentos de Pele</span>
-      <span>Harmonização Facial</span><span>Preenchimento Labial</span><span>Bioestimulador de Colágeno</span><span>Botox Full Face</span><span>Rejuvenescimento</span><span>Tratamentos de Pele</span>
+      <span>Harmonização Facial</span><span>Preenchimento Labial</span><span>Bioestimulador de Colágeno</span><span>Toxina Botulínica</span><span>Rejuvenescimento</span><span>Tratamentos de Pele</span>
+      <span>Harmonização Facial</span><span>Preenchimento Labial</span><span>Bioestimulador de Colágeno</span><span>Toxina Botulínica</span><span>Rejuvenescimento</span><span>Tratamentos de Pele</span>
     </div>
   </div>
 
@@ -174,7 +174,7 @@
         </article>
         <article class="proc reveal">
           <div class="ic"><svg class="ico"><use href="#i-spark"/></svg></div>
-          <h3>Botox Full Face</h3>
+          <h3>Toxina Botulínica (Botox)</h3>
           <p>Suaviza linhas de expressão da testa, olhos e entre as sobrancelhas, mantendo o rosto leve e expressivo.</p>
           <a class="wa" data-msg="Olá, Dra. Luciana! Tenho interesse em botox e gostaria de agendar uma avaliação." data-pos="card-botox" href="#">Quero saber mais <svg class="ico"><use href="#i-arrow"/></svg></a>
         </article>
@@ -202,42 +202,83 @@
         <div class="head reveal">
           <span class="eyebrow">Antes e depois</span>
           <h2>Resultados reais, <em>com naturalidade</em></h2>
-          <p class="lead">Casos de pacientes da Dra. Luciana que autorizaram a divulgação das imagens. Toque na foto para ampliar.</p>
+          <p class="lead">11 casos de pacientes da Dra. Luciana que autorizaram a divulgação das imagens. Arraste para ver e toque na foto para ampliar.</p>
         </div>
-        <a class="btn btn-dark reveal" href="resultados.html">Ver todos os resultados <svg class="ico"><use href="#i-arrow"/></svg></a>
+        <div class="res-nav reveal"><button type="button" data-dir="-1" aria-label="Anterior"><svg class="ico" style="transform:rotate(180deg)"><use href="#i-arrow"/></svg></button><button type="button" data-dir="1" aria-label="Próximo"><svg class="ico"><use href="#i-arrow"/></svg></button></div>
       </div>
-      <div class="res-row">
-        <article class="res-card reveal">
-          <figure data-lb="img/resultados/rejuvenescimento-1ano.webp"><img src="img/resultados/rejuvenescimento-1ano.webp" width="900" height="1069" alt="Antes e depois de rejuvenescimento facial, fevereiro de 2024 e fevereiro de 2025" loading="lazy"><span class="zoom"><svg class="ico"><use href="#i-zoom"/></svg></span></figure>
+      <div class="res-cats reveal">
+        <a href="resultados.html#labios">Lábios <b>3</b></a>
+        <a href="resultados.html#bio">Bioestimulador <b>4</b></a>
+        <a href="resultados.html#toxina">Toxina botulínica <b>2</b></a>
+        <a href="resultados.html#rejuv">Rejuvenescimento <b>2</b></a>
+      </div>
+      <div class="res-row carousel" id="resRow">
+        <article class="res-card reveal" data-cat="rejuv">
+          <figure class="ba-lr" data-lb="img/resultados/rejuvenescimento-1ano.webp"><img src="img/resultados/rejuvenescimento-1ano.webp" width="900" height="1069" alt="Antes e depois: rejuvenescimento facial, plano por etapas em 1 ano" loading="lazy"><span class="ba b">Antes</span><span class="ba a">Depois</span><span class="zoom"><svg class="ico"><use href="#i-zoom"/></svg></span></figure>
           <div class="body">
             <span class="proc-name">Rejuvenescimento facial</span>
             <h3>Plano por etapas em 1 ano</h3>
-            <p>Pele com mais viço e contorno mais firme, mantendo os traços da paciente.</p>
-            <a class="wa" data-msg="Olá, Dra. Luciana! Vi os resultados de rejuvenescimento no site e quero avaliar o meu caso." data-pos="res-rejuvenescimento" href="#">Quero avaliar meu caso <svg class="ico"><use href="#i-arrow"/></svg></a>
+            <p>Comparação de fev/2024 a fev/2025. Pele com mais viço e contorno mais firme, mantendo os traços da paciente.</p>
+            <a class="wa" data-msg="Olá, Dra. Luciana! Vi o resultado de rejuvenescimento facial no site e quero avaliar o meu caso." data-pos="home-rejuvenescimento-1ano" href="#">Quero avaliar meu caso <svg class="ico"><use href="#i-arrow"/></svg></a>
             <p class="disc"><b>Divulgação autorizada pelo usuário.</b> Esta imagem não representa, em hipótese alguma, garantia de resultado.</p>
           </div>
         </article>
-        <article class="res-card reveal">
-          <figure data-lb="img/resultados/labios.webp"><img src="img/resultados/labios.webp" width="900" height="1200" alt="Antes e depois de preenchimento labial" loading="lazy"><span class="zoom"><svg class="ico"><use href="#i-zoom"/></svg></span></figure>
+        <article class="res-card reveal" data-cat="labios">
+          <figure class="ba-tb" data-lb="img/resultados/labios.webp"><img src="img/resultados/labios.webp" width="900" height="1200" alt="Antes e depois: preenchimento labial, lábios definidos, sem exagero" loading="lazy"><span class="ba b">Antes</span><span class="ba a">Depois</span><span class="zoom"><svg class="ico"><use href="#i-zoom"/></svg></span></figure>
           <div class="body">
             <span class="proc-name">Preenchimento labial</span>
             <h3>Lábios definidos, sem exagero</h3>
             <p>Mais contorno e hidratação, com volume na proporção do rosto.</p>
-            <a class="wa" data-msg="Olá, Dra. Luciana! Vi os resultados de preenchimento labial no site e quero avaliar o meu caso." data-pos="res-labios" href="#">Quero avaliar meu caso <svg class="ico"><use href="#i-arrow"/></svg></a>
+            <a class="wa" data-msg="Olá, Dra. Luciana! Vi o resultado de preenchimento labial no site e quero avaliar o meu caso." data-pos="home-labios" href="#">Quero avaliar meu caso <svg class="ico"><use href="#i-arrow"/></svg></a>
             <p class="disc"><b>Divulgação autorizada pelo usuário.</b> Esta imagem não representa, em hipótese alguma, garantia de resultado.</p>
           </div>
         </article>
-        <article class="res-card reveal">
-          <figure data-lb="img/resultados/bioestimulador-perfil.webp"><img src="img/resultados/bioestimulador-perfil.webp" width="900" height="1146" alt="Antes e depois de bioestimulador de colágeno, vista de perfil" loading="lazy"><span class="zoom"><svg class="ico"><use href="#i-zoom"/></svg></span></figure>
+        <article class="res-card reveal" data-cat="toxina">
+          <figure class="ba-lr" data-lb="img/resultados/toxina-glabela.webp"><img src="img/resultados/toxina-glabela.webp" width="900" height="911" alt="Antes e depois: toxina botulínica, expressão de bravo mais suave" loading="lazy"><span class="ba b">Antes</span><span class="ba a">Depois</span><span class="zoom"><svg class="ico"><use href="#i-zoom"/></svg></span></figure>
+          <div class="body">
+            <span class="proc-name">Toxina botulínica</span>
+            <h3>Expressão de bravo mais suave</h3>
+            <p>Mesma expressão antes e depois: ao franzir a testa, as linhas entre as sobrancelhas ficam bem mais leves.</p>
+            <a class="wa" data-msg="Olá, Dra. Luciana! Vi o resultado de toxina botulínica (botox) no site e quero avaliar o meu caso." data-pos="home-toxina-glabela" href="#">Quero avaliar meu caso <svg class="ico"><use href="#i-arrow"/></svg></a>
+            <p class="disc"><b>Divulgação autorizada pelo usuário.</b> Esta imagem não representa, em hipótese alguma, garantia de resultado.</p>
+          </div>
+        </article>
+        <article class="res-card reveal" data-cat="bio">
+          <figure class="ba-tb" data-lb="img/resultados/bioestimulador-perfil.webp"><img src="img/resultados/bioestimulador-perfil.webp" width="900" height="1146" alt="Antes e depois: bioestimulador de colágeno, mais firmeza no contorno" loading="lazy"><span class="ba b">Antes</span><span class="ba a">Depois</span><span class="zoom"><svg class="ico"><use href="#i-zoom"/></svg></span></figure>
           <div class="body">
             <span class="proc-name">Bioestimulador de colágeno</span>
             <h3>Mais firmeza no contorno</h3>
-            <p>Melhora da qualidade da pele e da sustentação na região da mandíbula.</p>
-            <a class="wa" data-msg="Olá, Dra. Luciana! Vi os resultados de bioestimulador no site e quero avaliar o meu caso." data-pos="res-bioestimulador" href="#">Quero avaliar meu caso <svg class="ico"><use href="#i-arrow"/></svg></a>
+            <p>Melhora da qualidade da pele e da sustentação na região da mandíbula, vista de perfil.</p>
+            <a class="wa" data-msg="Olá, Dra. Luciana! Vi o resultado de bioestimulador de colágeno no site e quero avaliar o meu caso." data-pos="home-bioestimulador-perfil" href="#">Quero avaliar meu caso <svg class="ico"><use href="#i-arrow"/></svg></a>
+            <p class="disc"><b>Divulgação autorizada pelo usuário.</b> Esta imagem não representa, em hipótese alguma, garantia de resultado.</p>
+          </div>
+        </article>
+        <article class="res-card reveal" data-cat="labios">
+          <figure class="ba-lr" data-lb="img/resultados/labios-perfil.webp"><img src="img/resultados/labios-perfil.webp" width="900" height="963" alt="Antes e depois: preenchimento labial, perfil mais harmônico" loading="lazy"><span class="ba b">Antes</span><span class="ba a">Depois</span><span class="zoom"><svg class="ico"><use href="#i-zoom"/></svg></span></figure>
+          <div class="body">
+            <span class="proc-name">Preenchimento labial</span>
+            <h3>Perfil mais harmônico</h3>
+            <p>Vista de lado: lábios com mais projeção e contorno, respeitando o desenho natural.</p>
+            <a class="wa" data-msg="Olá, Dra. Luciana! Vi o resultado de preenchimento labial no site e quero avaliar o meu caso." data-pos="home-labios-perfil" href="#">Quero avaliar meu caso <svg class="ico"><use href="#i-arrow"/></svg></a>
+            <p class="disc"><b>Divulgação autorizada pelo usuário.</b> Esta imagem não representa, em hipótese alguma, garantia de resultado.</p>
+          </div>
+        </article>
+        <article class="res-card reveal" data-cat="toxina">
+          <figure class="ba-lr" data-lb="img/resultados/toxina-testa.webp"><img src="img/resultados/toxina-testa.webp" width="900" height="847" alt="Antes e depois: toxina botulínica, testa mais lisa" loading="lazy"><span class="ba b">Antes</span><span class="ba a">Depois</span><span class="zoom"><svg class="ico"><use href="#i-zoom"/></svg></span></figure>
+          <div class="body">
+            <span class="proc-name">Toxina botulínica</span>
+            <h3>Testa mais lisa</h3>
+            <p>Mesma expressão antes e depois: ao levantar as sobrancelhas, as linhas da testa ficam muito mais suaves.</p>
+            <a class="wa" data-msg="Olá, Dra. Luciana! Vi o resultado de toxina botulínica (botox) no site e quero avaliar o meu caso." data-pos="home-toxina-testa" href="#">Quero avaliar meu caso <svg class="ico"><use href="#i-arrow"/></svg></a>
             <p class="disc"><b>Divulgação autorizada pelo usuário.</b> Esta imagem não representa, em hipótese alguma, garantia de resultado.</p>
           </div>
         </article>
       </div>
+      <div class="hero-ctas" style="margin-top:.6rem">
+        <a class="btn btn-dark" href="resultados.html">Ver os 11 resultados <svg class="ico"><use href="#i-arrow"/></svg></a>
+        <a class="btn btn-wa wa" data-msg="Olá, Dra. Luciana! Vi os resultados no site e quero agendar minha avaliação." data-pos="res-home-cta" href="#"><svg class="ico"><use href="#i-chat"/></svg>Quero um resultado assim</a>
+      </div>
+      <a class="ig-link" href="https://www.instagram.com/dralucianaarce/" target="_blank" rel="noopener" data-track="instagram-resultados"><span class="ig-dot"><svg class="ico"><use href="#i-cam"/></svg></span><span>Novos antes e depois toda semana no Instagram <b>@dralucianaarce</b></span><svg class="ico arr"><use href="#i-arrow"/></svg></a>
       <div class="res-note reveal"><svg class="ico"><use href="#i-info"/></svg><span>Cada organismo responde de um jeito. Os resultados variam de pessoa para pessoa e todo tratamento é indicado somente após avaliação individual.</span></div>
     </div>
   </section>
@@ -284,6 +325,7 @@
         <div class="hero-ctas">
           <a class="btn btn-wa wa" data-msg="Olá, Dra. Luciana! Vim pelo site e quero conversar sobre uma avaliação." data-pos="sobre" href="#"><svg class="ico"><use href="#i-chat"/></svg>Falar com a Dra. Luciana</a>
         </div>
+        <a class="ig-link" href="https://www.instagram.com/dralucianaarce/" target="_blank" rel="noopener" data-track="instagram-sobre"><span class="ig-dot"><svg class="ico"><use href="#i-cam"/></svg></span><span>Acompanhe a rotina do consultório e dicas de cuidado no <b>Instagram</b></span><svg class="ico arr"><use href="#i-arrow"/></svg></a>
       </div>
     </div>
   </section>
@@ -516,6 +558,10 @@
   document.getElementById('mx').addEventListener('click', close);
   modal.addEventListener('click', function(e){ if (e.target === modal) close(); });
   document.addEventListener('keydown', function(e){ if (e.key === 'Escape') close(); }); }
+
+  // setas do carrossel de resultados
+  var row = document.getElementById('resRow');
+  if (row){ document.querySelectorAll('.res-nav button').forEach(function(b){ b.addEventListener('click', function(){ var card = row.querySelector('.res-card'); var step = card ? card.getBoundingClientRect().width + 18 : 300; row.scrollBy({left: step * parseInt(b.getAttribute('data-dir'),10), behavior:'smooth'}); }); }); }
 
   // lightbox dos resultados
   var lb = document.getElementById('lb'), lbi = document.getElementById('lbi');
